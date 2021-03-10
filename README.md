@@ -26,3 +26,52 @@ the `typescript` boilerplate.
 
 I'll use storybook for implementing and showcasing the components.
 
+
+
+## List of frequent components
+Style:
+* Colors
+* TextStyles
+* Sizes (Spacings)
+* Theme(s)
+
+Base:
+* Buttons:
+    * Button
+    * IconButton
+
+* Inputs:
+    * Input
+    * TextArea
+    * DatePicker
+    * TimePicker
+
+* Layout:
+    * Container
+    * FlexContainer 
+    * FlexGrow
+    * GridContainer
+    * GridRow
+    * GridCol
+    * GridItem
+    * Divider
+
+* Lists:
+    * List
+    * ListItem
+
+* Tables:
+    * Table
+    * Header
+    * TableRow
+    * TableCell
+    * Paginator
+
+* Loaders:
+    * ProgressBar (LinearProgress)
+    * IconLoader (CircularLoader, AnimatedLoader etc.)
+
+Single Page App:
+* AppBar (TopBar)
+* Side Menu
+* Page
