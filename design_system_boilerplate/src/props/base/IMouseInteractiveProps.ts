@@ -6,6 +6,10 @@ interface IMouseInteractiveProps {
     onMouseUp?: (evt: React.SyntheticEvent) => void;
 
     onMouseLeave?: (evt: React.SyntheticEvent) => void;
+
+    onMouseEnter?: (evt: React.SyntheticEvent) => void;
+
+    onMouseOver?: (evt: React.SyntheticEvent) => void;
 }
 
 export default IMouseInteractiveProps;

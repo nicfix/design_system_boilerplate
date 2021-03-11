@@ -1,11 +1,10 @@
-import React from 'react';
 import IStyledProps from '../IStyledProps';
 import IClickableProps from '../IClickableProps';
-import IChildrenProps from '../IChildrenProps';
 import IMouseInteractiveProps from '../IMouseInteractiveProps';
 import ITouchInteractiveProps from '../ITouchInteractiveProps';
+import IChildrenProps from '../IChildrenProps';
 
-export interface IButtonProps
+interface IButtonProps
     extends IStyledProps,
         IClickableProps,
         IMouseInteractiveProps,
@@ -18,10 +17,4 @@ export interface IButtonProps
     disabled: boolean;
 }
 
-const Button: React.FC<IButtonProps> = (props) => (
-    <>
-        <button {...props} />
-    </>
-);
-
-export default Button;
+export default IButtonProps;
